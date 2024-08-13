@@ -1,0 +1,25 @@
+{
+  "short_name": "PokéShop",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "img/logoNav.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logoNav.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/logoNav.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,42 @@
+@import "~flickity/dist/flickity.min.css";
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--claro);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --amarelo-claro: #EEBB3B;
+  --amarelo-escuro: #D6962A;
+  --claro: #FEFEF9;
+  --escuro: #1E1E1E;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+button {
+  background-color: var(--escuro);
+  color: var(--claro);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--amarelo-escuro);
+}

@@ -1,0 +1,19 @@
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0rem;
+    padding: 1rem;
+    gap: 1rem;
+
+    button {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        padding: 0.25rem;
+    }
+}
+
+.container {
+    margin-top: 6rem;
+}

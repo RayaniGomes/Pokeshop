@@ -1,0 +1,14 @@
+.header{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(360deg, var(--claro) 0%, var(--amarelo-escuro) 100%);
+
+    h1 {
+        font-size: 64px;
+        font-weight: 700;
+        color: var(--escuro);
+    }
+    
+}

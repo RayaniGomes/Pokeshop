@@ -1,0 +1,58 @@
+.carousel-cell {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: linear-gradient(360deg, #D6962A 0%, #EEBB3B 100%) !important;
+    padding: 2rem 1.5rem ;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    
+    .cabecalho {
+        max-height: 150px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        img {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+        }
+    
+        h5 {
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 1rem;
+        }
+    }
+    
+    .corpo {
+        max-height: 300px;
+        display: flex;
+        align-items: start;
+        padding: .5rem 0rem;
+    
+        p {
+            font-size: 12px;
+            color: var(--escuro);
+            text-align: center;
+        }
+    }
+    
+    .rodape {
+        max-height: 50px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    
+        a {
+            color: var(--claro);
+            background-color: var(--escuro);
+            padding: .25rem .5rem;
+            border-radius: 10px;
+        }
+    }
+}

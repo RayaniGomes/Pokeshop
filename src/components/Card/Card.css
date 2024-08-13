@@ -1,0 +1,91 @@
+.card {
+    width: 300px;
+    text-align: center;
+    background-color: var(--claro);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #00000040;
+}
+
+.imagemCard {
+    width: 300px;
+    height: 2x00px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--escuro);
+    border-radius: 10px 10px 0px 0px;
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+.infoCard {
+    width: 300px;
+    padding: 1rem;
+}
+
+.bodyInfo p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--escuro);
+    text-align: left;
+    margin-top: -0.5rem;
+}
+
+.infoNome {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    h4 {
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--escuro);
+        text-align: left;
+        text-transform: capitalize;
+    }
+
+    button {
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+    }
+}
+
+.footerInfo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    button {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0.25rem 1rem;
+    }
+}
+
+.preco {
+    height: 30px;
+    text-align: left;
+    line-height: 0px;
+    margin-top: 1rem;
+
+    p {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--amarelo-escuro);
+        text-decoration: line-through;
+        margin-bottom: 0.5rem;
+    }
+
+    h5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--escuro);
+    }
+}
