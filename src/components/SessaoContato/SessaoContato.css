@@ -1,0 +1,39 @@
+.sessaocontato {
+    padding: 0rem 5rem;
+    align-items: center;
+
+}
+
+.linha-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        padding: 1rem 2rem;
+        font-size: 16px;
+        font-weight: 700;
+        
+    }
+}
+
+@media (width <=768px) {
+    .sessaocontato {
+        padding: 0rem 1rem;
+    }
+
+    .linha-1 {
+        flex-direction: column;
+    }
+
+    .botao button {
+        font-size: 10px;
+    }
+}

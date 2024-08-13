@@ -32,7 +32,7 @@ const Navbar = () => {
                     <Link className='menuLink' to="/"onClick={() => handleNavClick('home')}>Home</Link>
                     <Link className='menuLink' to="/" onClick={() => handleNavClick('ofertas')}>Ofertas Diárias</Link>
                     <Link className='menuLink' to="/pokedex">Pokédex</Link>
-                    <Link className='menuLink' to="/">Contato</Link>
+                    <Link className='menuLink' to="/"onClick={() => handleNavClick('contato')}>Contato</Link>
                 </div>
             </div>
             <form className='form'>

@@ -2,6 +2,7 @@ import './Home.css';
 import Banner from '../../components/Banner';
 import SessaoOfertas from '../../components/SessaoOfertas';
 import SessaoPokedex from '../../components/SessaoPokedex';
+import SessaoContato from '../../components/SessaoContato';
 
 const Home = () => {
     return (
@@ -16,6 +17,10 @@ const Home = () => {
             <section id="tipos">
                 <h2 className='titulo'>Tipos de Pokémon</h2>
                 <SessaoPokedex />
+            </section>
+            <section id="contato">
+                <h2 className='titulo'>Fale conosco</h2>
+                <SessaoContato />
             </section>
         </div>
     );

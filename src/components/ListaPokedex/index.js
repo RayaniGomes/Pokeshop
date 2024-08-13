@@ -111,7 +111,7 @@ const SessaoOfertas = () => {
                     {pokemons.map((pokemon) => (
                         <div
                             key={pokemon.name}
-                            className="col m-5"
+                            className="col"
                         >
                             <CardPokedex
                                 nome={pokemon.name}

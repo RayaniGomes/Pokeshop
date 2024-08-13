@@ -11,7 +11,14 @@
 #tipos {
     width: 100%;
     padding: 5rem;
-    margin: 5rem 0rem;
+    margin: 2rem 0rem;
+}
+
+#contato {
+    background-image: url('../../../public/img/background.png');
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    padding: 5rem;
 }
 
 .titulo {
@@ -29,20 +36,46 @@
         font-size: 35px;
     }
 
-    #ofetas{
-    padding: 5rem 0rem;
-}
+    #ofetas {
+        padding: 5rem 0rem;
+    }
+
+    #contato{
+        padding: 2rem;
+    }
 
 }
 
 @media (width <=768px) {
     .titulo {
         font-size: 30px;
+        margin-bottom: 5rem;
     }
 
     #tipos,
     #ofertas {
         padding: 2rem;
         margin: 0rem;
+    }
+
+    #contato {
+        padding-bottom: 5rem;
+    }
+}
+
+@media (width <=425px) {
+    .titulo{
+        margin-bottom: 3rem;
+    }
+    #tipo {
+        padding: 2rem .5rem;
+    }
+
+    #contato {
+        padding: 5rem 1rem;
+    }
+
+    .flickity-prev-next-button {
+        display: none;
     }
 }
