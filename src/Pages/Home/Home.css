@@ -4,22 +4,45 @@
     justify-content: center;
     flex-direction: column;
     background: linear-gradient(360deg, var(--claro) 0%, var(--amarelo-escuro) 100%);
-    padding: 5cqh 5rem;
+    padding: 5rem;
     margin: 5rem 0rem;
 }
 
 #tipos {
     width: 100%;
-    padding: 5rem 5rem;
+    padding: 5rem;
     margin: 5rem 0rem;
 }
 
 .titulo {
     width: 100%;
-        font-size: 48px;
-        font-weight: 700;
-        color: var(--escuro);
-        text-align: left;
-        text-transform: uppercase;
-       margin-bottom: 5rem;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--escuro);
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+@media (width <=1024px) {
+    .titulo {
+        font-size: 35px;
+    }
+
+    #ofetas{
+    padding: 5rem 0rem;
+}
+
+}
+
+@media (width <=768px) {
+    .titulo {
+        font-size: 30px;
+    }
+
+    #tipos,
+    #ofertas {
+        padding: 2rem;
+        margin: 0rem;
+    }
 }

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from '../Card';
 import Modal from '../Modal';
+import './SessaoOfertas.css'
 
 const SessaoOfertas = () => {
     const [pokemons, setPokemons] = useState([]);
@@ -92,7 +93,7 @@ const SessaoOfertas = () => {
                 {pokemons.map((pokemon) => (
                     <div
                         key={pokemon.name}
-                        className="col mx-5"
+                        className="col"
                     >
                         <Card
                             nome={pokemon.name}

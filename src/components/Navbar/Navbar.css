@@ -85,7 +85,7 @@
     font-size: 30px;
 }
 
-@media (width <= 788px) {
+@media (width <= 910px) {
     .navbar {
         width: 100%;
         justify-content: space-between;

@@ -1,0 +1,15 @@
+.row{
+    display: flex;
+}
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0rem 2rem;
+}
+
+@media (width <= 1024px){
+    .col {
+        margin: 0rem;
+    }
+}

@@ -17,11 +17,12 @@ const ModalPokemon = ({ show, handleClose, pokemon }) => {
             }
             setEvolutionImages(images);
         };
-
+        
         fetchEvolutionImages();
     }, [pokemon]);
-
+    
     if (!pokemon) return null;
+    const index = 1;
 
     return (
         <Modal show={show} onHide={handleClose}>
@@ -45,9 +46,10 @@ const ModalPokemon = ({ show, handleClose, pokemon }) => {
 
                 <h3>Evoluções:</h3>
                 <ul className='evolution'>
-                    {pokemon.evolutions && pokemon.evolutions.map(evolution => (
+                    {pokemon.evolutions && pokemon.evolutions.map((evolution, index) => (
                         <li key={evolution}>
-                            {evolution}
+                            <p><strong>{`${index + 1}`}º </strong>{evolution}</p>
+                            
                             <img
                                 src={evolutionImages[evolution] || 'placeholder-image-url'}
                                 alt={evolution}
