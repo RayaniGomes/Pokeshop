@@ -21,13 +21,12 @@ const SessaoOfertas = () => {
             const offset = (page - 1) * itemsPerPage;
             const response = await axios.get(`https://pokeapi.co/api/v2/pokemon?limit=${itemsPerPage}&offset=${offset}`);
             const results = response.data.results;
-            setTotalPages(Math.ceil(response.data.count / itemsPerPage)); // Atualiza o número total de páginas
+            setTotalPages(Math.ceil(response.data.count / itemsPerPage)); 
 
             const pokemonsData = await Promise.all(results.map(async (result) => {
                 const response = await axios.get(result.url);
                 const pokemon = response.data;
 
-                // Fetch species to get evolution chain
                 const speciesResponse = await axios.get(pokemon.species.url);
                 const evolutionChainUrl = speciesResponse.data.evolution_chain.url;
                 const evolutionChainResponse = await axios.get(evolutionChainUrl);
